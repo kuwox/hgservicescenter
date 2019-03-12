@@ -1,0 +1,134 @@
+/**
+ * 2010 Presencia Profesional. 
+ * @author Presencia Profesional <info@presenciaprofesional.com>
+ * @link www.presenciaprofesional.com
+ * @version 1.1.2011
+*/
+
+@import "reset.css";
+
+body {background: #006 url(../images/fondo.jpg) repeat-x; color:#4c4c4c; font-family: Arial, Verdana, Sans-Serif;}
+a {color:#fff;text-decoration: none; font-size:12px;}
+a:hover, a:active {color:#06C; text-decoration: underline;}
+h2,h3,h4,h5,h6 { color:#099; }
+/* header */
+
+a:link,a:visited {
+	color: #06F;
+	text-decoration:none;
+}
+
+a:hover,a:active {
+	color: #06C;
+	text-decoration:underline;
+}
+
+#headercontainer { 
+	position: relative;  width:960px; height:180px;  margin: 0 auto; 
+/*	border:#093 solid;*/
+
+}
+
+#header {
+	/*position: fixed; top: 0;*/
+	height:210px; 
+    width:960px;
+    margin:auto;
+	background:url(../images/mainbg.png) no-repeat ; 
+	color:#FFF;
+	
+	font-weight:bold;
+	font-size:12px;
+	z-index:5000;
+/*	*/
+}
+#avion{
+	vertical-align:bottom;
+/*	border:#333 solid;*/
+	float:right;
+	margin:0;
+}
+#logo{
+	color: #66eaf9; margin-top:5px;	margin-left:110px; float:left; width:230px; 
+}
+
+
+
+/*#header {height:236px; margin:0 auto; background: #e6e6e6; }*/
+
+#header div.wrap {margin:0 auto;}
+
+#top {
+	width: 960px;
+	margin: 0 auto;
+	height: 236px;
+	padding:6px 0 0 0;
+	/*background: url(../images/fondo-top.png) no-repeat top;*/
+}
+
+
+#top .slogan { float: left; padding-top:60px; width:430px; font-size:26px; font-weight:bold; color:#FFF; text-align:center;}
+
+#top-main {width: 960px; margin: 0 auto; height: 37px; background: #006de2; color:#FFF; font-size:14px;}
+/* page */
+
+#page { width: 990px; margin: 0 auto; overflow: hidden;}
+
+
+
+/* content */
+
+#content {  margin-left:15px; font-size:14px; line-height: 1.4em;overflow:hidden; width: 960px; float:left; background-color:#FFF;  }
+
+
+#content h1, #content-no-right h1 {font-size:1.5em; color:#0b4c7e; font-weight:bold; margin:15px 6px 6px 15px; }
+#content h2, #content-no-right h2 {font-size: 1em;}
+#content h3, #content-no-right h3 {font-size: 1em; color: #4C4C4C; font-weight: bold;}
+#content .video, #content-no-right .video {text-align: center; padding:1em 0; overflow: hidden; margin: 0 auto; cursor: pointer;}
+
+/* footer */
+
+#footer { width: 960px; height:138px; margin:0px auto 10em auto; color: #FFF; font-size: 11px; background: url(../images/bg-footer-home.jpg) no-repeat;  }
+/*#footer_home { width: 960px; height:138px; margin:0px auto 10em auto; color: #FFF; font-size: 11px; background: url(../images/bg-footer-home.jpg) no-repeat;  }*/
+#footer a {text-decoration: none; color: #FFF;}
+#footer a:hover {text-decoration: underline; color:#000;}
+#footer .copyright {float:right; margin-top:115px; margin-right:5px;}
+#footer .author {float:left;  margin-top:115px; margin-left:5px;}
+
+/* form */
+
+form input[type="text"], form textarea {border: 1px solid #cfcfcf; padding: 4px; }
+textarea:focus, input[type="text"]:focus {background: #fff; border-color: #bbb;}
+form th, form td {vertical-align: top; margin: 0; /*padding:3px 5px*/;}
+form th {text-align: right;}
+label {font-size: 12px; white-space:nowrap;margin: 0; padding:0;}
+input.button {float:right; display: block;/* -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;*/ border: 1px solid #cfcfcf; color:#333; background: url(../images/bg-menu.png) 0 50% repeat-x; padding: 7px 2em; cursor: pointer; font-weight: bold; font-size: 11px; color:#555; margin: 1em 0 0 0;}
+input.button:hover {background: #fff;}
+
+.color { color:#0b4c7e}
+.flash-message {padding:0.5em 1em; background: #DEF1CA; color:#769E3B; border: 1px solid #769E3B; font-weight: bold; margin:1em 0;}
+.box-td {font-size: 12px; font-style:italic; color:#099; }
+ul.error {list-style-type: none;margin: 0; padding:0.5em 0 0 0;}
+ul.error li {margin: 0 0 0.5em 0; padding:0.5em 1em; color:#d00; background:#fee; border: 1px solid #d00;}
+.tr_color{
+	background-color:#F5F4FF;
+}
+.tr_color2{
+	background-color:#CCC;
+}
+.msg { font-size:16px; text-align:center; border-bottom:#CCC solid 1px; color:#060; border-top:#CCC solid 1px; background-color:#d7e4bd; width:95%; }
+
+.err { font-size:16px; text-align:center; border-bottom:#CCC solid 1px; color:#F00; border-top:#CCC solid 1px; width:95%; }
+
+
+/* image gallery */
+
+ul.gallery {margin: 0; padding:0.5em 0;list-style-type: none; overflow: auto;}
+ul.gallery li {float:left; margin:5px 2px;}
+ul.gallery li img {border:1px solid #ddd; padding:3px;}
+
+
+
+
+
+

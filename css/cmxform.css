@@ -1,0 +1,28 @@
+/**********************************
+
+Name: cmxform Styles
+
+***********************************/
+label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic;
+	font-size:10px;
+}
+div.error { display: none; }
+/*input {	border: 1px solid black; }*/
+input:focus { border: 1px dotted black; }
+input.error { border: 1px dotted red; }
+
+em.error {
+  background:url("../images/required.gif") no-repeat 0px 0px;
+  padding-left: 16px;
+}
+em.success {
+  background:url("../images/required.gif") no-repeat 0px 0px;
+  padding-left: 16px;
+}
+
+em.error { color: black; }
+#warning { display: none; }
+label.error { display: none; }	

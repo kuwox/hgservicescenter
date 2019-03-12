@@ -1,0 +1,119 @@
+/* The main calendar */
+
+#calendar_mini {
+	padding-left:12px;
+
+}
+
+
+/* Header part -- contains navigation buttons and day names. */
+
+.header_days{
+/*	border:#666  solid 1px;*/
+	vertical-align:bottom;
+	color:#000;
+	background-color:#F7F7F7;
+	font-size:13px;
+	width:130px;
+}
+.pie_cal {
+	font:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color: #FFF;
+	background-color: #060; /*verde*/
+	background-color:#036;
+	font-weight:bold;
+	width:70%;
+	margin: 1px;
+	padding: 2px;
+}
+.mes_year_actual {
+	font:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #FFF;
+	/*background-color: #060; verde*/
+	background-color:#036;
+	font-weight:bold;
+	width:100%;
+	height:10px;
+	margin: 1px;
+	padding:1px;
+}
+.calendar_celdas {
+	border:#999  solid 1px;
+	vertical-align:top;
+	color:#000;
+	font-size:10px;
+	width:130px;
+}
+.day_calendar a, .day_calendar a:link {
+	text-decoration:none;
+	
+}
+.dia_actual {
+	background-color: #6C0;	
+	/*background-color:#FFF;*/
+	font-family:Arial, Helvetica, sans-serif;
+}
+.dia_actual a{
+	text-decoration:underline;
+
+}
+.txt_new a, .txt_new a:link {
+	font-size:13px;
+	text-decoration:none;
+	color: #06F;
+}
+
+/*txt_dia_hoy*/
+.txt_actual, .txt_actual a {
+	/*color:#060; verde	color:#036;*/
+
+	background-color: #6C0;	
+	font-weight:bold;
+	font-size:11px;
+}
+
+/*txt_no_hoy*/
+.txt_otros, .txt_otros a{
+	font-size:9px;
+/*	text-decoration:underline;*/
+}
+
+/*celda_sin_evento*/
+.dia_otros {
+	background-color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+/*celda_con_evento*/
+.txt_otros_color/*, .txt_otros_color a*/{
+	/*background-color:#EEFAC9; verde*/
+	font-size:9px;
+	background: url(../../../lib/js/calendar/img/event_small.gif) no-repeat right top #A9B8FC ;
+}
+
+.dia_habil, .dia_habil a{
+	color: #000;
+	font-weight:bold;
+	/*background-color:#0F0; verde resaltador*/
+}
+
+/*txt_dia_feriado*/
+.dia_feriado, .dia_feriado a{
+	color:#666;
+	
+}
+
+
+.table_header a, .table_header {
+	color: #06C;
+	background-color: #A9B8FC;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+}
+
+
+
